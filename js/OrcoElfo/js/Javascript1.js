@@ -1,6 +1,7 @@
 // Puedo juntar las variables en una misma linea con una "," bastánte útil. Ejemplo "var fuerzaOrco, fuerzaElfo" uwu
 //Comparaciones "=="
 //Asignaciones "="
+// API = Application Programming Interface
 
 	var fuerzaOrco; // Variable Orco.
 	var fuerzaElfo; // Variable Elfo.
