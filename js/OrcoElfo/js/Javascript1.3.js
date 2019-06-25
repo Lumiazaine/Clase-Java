@@ -1,6 +1,6 @@
 var fuerzaOrco; // Variable Orco.
 var fuerzaElfo; // Variable Elfo.
-
+var fuerzaPocion=0;
 // Entrada de datos
 	
 	fuerzaOrco = prompt ("introduzca el valor de la fuerza del orco");
@@ -16,7 +16,7 @@ var fuerzaElfo; // Variable Elfo.
 		prompt("El elfo se encuentra con una poción en el camino\n"+
 			"1 - Te la tomas\n"+
 			"2 - No te la tomas");
-
+Math.random()
 			if (fuerzaOrco == fuerzaElfo){alert ("No gana nadie")}
 			if (fuerzaOrco > fuerzaElfo) {alert ("El Oco gana")}
 			if (fuerzaOrco < fuerzaElfo) {alert ("El Efo gana")}
