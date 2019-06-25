@@ -12,3 +12,4 @@ var fuerzaElfo; // Variable Elfo.
 		else if (fuerzaOrco > fuerzaElfo) {alert ("El orco gana") }
 			else {alert ("El Elfo gana") }
 
+//este resultado estaría mal, ya que el valor no sería númerico, por lo que tendería a producir errores. (aunque salga bien)
