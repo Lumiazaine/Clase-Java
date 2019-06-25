@@ -8,8 +8,8 @@
 // Entrada de datos
 	
 	fuerzaOrco=8;
-	fuerzaElfo=6;
+	fuerzaElfo=8;
 		if (fuerzaOrco == fuerzaElfo) {
 		alert ("No gana nadie")
 		}
-		
+
