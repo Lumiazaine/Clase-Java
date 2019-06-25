@@ -1,6 +1,6 @@
 var fuerzaOrco; 		// Variable Orco.
 var fuerzaElfo; 		// Variable Elfo.
-// var fuerzaPocion=0; (Al final no se usó) 	// Variable Poción.
+						// var fuerzaPocion=0; (Al final no se usó) (Variable Poción.)
 var numeroAleatorio; 	// Variable Número aleatorio.
 var decisionPocima;
 
