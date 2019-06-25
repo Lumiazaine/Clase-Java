@@ -14,3 +14,4 @@
 		alert ("No gana nadie")
 		}
 
+//el resultado será "No gana nadie", por lo que el programa se acaba allí.
