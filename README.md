@@ -1,5 +1,5 @@
 # Curso
 Todo lo aprendido (actualizandose)
 Cosas aprendidas:
-*Esquema lógico
-*Pseudocódigo
+Esquema lógico
+Pseudocódigo
