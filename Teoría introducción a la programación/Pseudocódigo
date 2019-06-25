@@ -1,0 +1,20 @@
+FuerzaOrco;
+FuerzaElfo;
+FuerzaOrco=2;
+FuerzaElfo=1;
+  If (FuerzaOrco>FuerzaElfo) {"El Orco vence al Elfo"}
+  *If (FuerzaOrco==FuerzaElfo) {"No gana ninguno} 
+  *If (FuerzaOrco<FuerzaElfo) {"El Orco muere"} 
+El "*" se aplica ya que en este caso, el objeto "FuerzaOrco" tiene un valor permanente, por lo que estas líneas serían inútiles añadirlas.
+Lo que se debería aplicar en este caso para optimizar las líneas de código sería lo siguiente:
+  If (FuerzaOrco<FuerzaElfo) {"El Orco muere"}
+    Else if (FuerzaOrco>FuerzaElfo) {"El Orco Gana"}
+      Else {"Empatan"}
+      
+ Notas adicionales:
+ *El Pseudocódigo, es un tipo de programación inventada que no se puede compilar, es un mero esquema que se realiza para hacerse una idea 
+ de los valores que se quieren añadir, etc.
+ *Está realizado en "Camel Case" Lo que quiere decir es que al programar, debe estar unido el nombre, por lo que para diferenciarlo se añade
+ la primera mayúscula de cada palabra diferente.
+ *Se recomiendan añadir comentarios para las variables y otros objetos que se quieran añadir, para una mejor compresión de lo que se está 
+ programando, dependiendo del lenguaje varía su forma ("//", "<%>"... etc).
