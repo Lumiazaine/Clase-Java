@@ -12,3 +12,8 @@ h6	{font-family: 'Roboto', sans-serif;}
 	font-family: 'Roboto', sans-serif;
 	color:red;
 	}
+/*(.nombre clase) sirve para añadir atributos a una etiqueta en concreto.*/
+
+.azul {color: blue;
+			font-family: 'Roboto', sans-serif;
+			}
