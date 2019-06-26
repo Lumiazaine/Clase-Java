@@ -6,4 +6,4 @@ var permiso;
 permiso=false;
 
 	if (permiso === true) {document.write("Hola, ¿Te pago el Uber?")}
-	if (permiso === false) {document.write("Sad")}
+	if (permiso === false) {document.write("<div>Sad</div>")}
