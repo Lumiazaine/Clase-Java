@@ -34,9 +34,8 @@ var decisionPocima;
 				}
 				else if (decisionPocima=2) {decisionPocima = 0}
 				
-				if (decisionPocima >2 || decisionPocima <=0) {} {alert ("Escribe un valor")
-				}
-
+// (\n"+ sirve para pasar una línea a la siguiente.
+//else if (decisionPocima !=2 && decisionPocima !=0) {alert ("Escribe un valor")}
 // if (decisionPocima >2 || decisionPocima <=0) {} {alert ("Escribe un valor")} Se ha añadido como valor para evitar que escoja otro valor
 				
 //numeroAleatorio = Math.random(); (esta función sirve para agregar números aleatorios)
@@ -44,9 +43,19 @@ var decisionPocima;
 			
 			
 
-			if (fuerzaOrco == fuerzaElfo){alert ("No gana nadie")}
-			if (fuerzaOrco > fuerzaElfo) {alert ("El Oco gana")}
-			if (fuerzaOrco < fuerzaElfo) {alert ("El Efo gana")}
-		
+
+if (fuerzaOrco == fuerzaElfo) {
+		alert ("No gana nadie")
+		}
+		else if (fuerzaOrco > fuerzaElfo) {alert ("El orco gana") }
+			else {alert ("El Elfo gana") }
+
+			
+//if (fuerzaOrco == fuerzaElfo){alert ("No gana nadie")}
+//else if (fuerzaOrco > fuerzaElfo) {alert ("El Orco gana")}
+//else {alert ("El Efo gana")} (error con else añadiendo unos paréntesis)
+//if (fuerzaOrco == fuerzaElfo){alert ("No gana nadie")}
+//if (fuerzaOrco > fuerzaElfo) {alert ("El Orco gana")}
+//if (fuerzaOrco < fuerzaElfo) {alert ("El Efo gana")}
 //la función "Number" es diferente a "number" dando error en el resultado.
 //la función "\n" es para hacer "intros".
