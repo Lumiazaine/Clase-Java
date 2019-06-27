@@ -1,0 +1,23 @@
+h1	{
+	font-family: 'Roboto', sans-serif;
+	/*color:green;*/
+} 
+h2	{font-family: 'Roboto', sans-serif;}
+h3	{font-family: 'Roboto', sans-serif;}
+h4	{font-family: 'Roboto', sans-serif;}
+h5	{font-family: 'Roboto', sans-serif;}
+h6	{font-family: 'Roboto', sans-serif;}
+	
+	div	{
+	font-family: 'Roboto', sans-serif;
+	color:red;
+	}
+/*(.nombre clase) sirve para añadir atributos a una etiqueta en concreto.*/
+
+.azul {color: blue;
+			font-family: 'Roboto', sans-serif;
+			}
+.borde-rojo{border:solid 1px red; }	
+
+
+.mitad{width: 50%;}
