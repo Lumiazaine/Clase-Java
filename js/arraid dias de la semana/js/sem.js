@@ -10,6 +10,7 @@ console.log(aDiasSemana.length);
 
 	// for(var i=0;i<=6;i++)
 	// for(var i=0;i<aDiasSemana.length;i++) (Esto es si no lo sabemos, para que nos sube su valor total).
+	
 	for(var i=0;i<aDiasSemana.length;i++){
  	document.write("<div>"+ aDiasSemana[i] + "</div>")
 }
