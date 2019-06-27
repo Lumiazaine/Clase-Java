@@ -1,0 +1,33 @@
+body,html{
+	height: 100%;
+}
+
+#contenedor-principal{
+	width: 1400px;
+	height: 100%;
+	background-color:blue;
+}
+
+#cabecera{
+	width: 100%;
+	height: 80px;
+	background-color:green;
+}
+
+#nav{
+width: 100%;
+height: 50px;
+background-color: red;
+}
+
+#sec{
+width: 45%;
+height: 400px;
+background-color: yellow;
+}
+
+#sec2{
+width: 45%;
+height: 400px;
+background-color: orange;	
+}
