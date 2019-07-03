@@ -1,5 +1,33 @@
 .imagen-fondo{
-	width: 1000pc;
+	width: 1000px;
 	height: 779px;
-	background-image: url("../img/Orco/img/fondo_bosque.jpg");
+	background-image: url("../img/fondo_bosque.jpg");
+}
+
+#orco{
+	position: relative;
+	top: 140px;
+	left: 350px;
+
+}
+
+#boton-ataque, #boton-idle, #boton-correr{
+	width: 250px;
+	height: 250px;
+	font-size: 40px;
+
+}
+
+#vida, #fuerza, #velocidad{
+
+	width: 250px;
+	height: 30px;
+	color: #FFFFFF;
+	border:solid 5px #FFFFFF;
+	font-size: 40px;
+	padding: 15px;
+	position: relative;
+	top: 15px;
+	left: 15px;
+	text-align: center;
 }
