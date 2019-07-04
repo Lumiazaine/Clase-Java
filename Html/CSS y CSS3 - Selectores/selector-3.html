@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Selector de Clase</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style type="text/css">
+			body{
+
+				font-family: 'Roboto', sans-serif;		
+			}
+
+			.miclase{
+				background-color: green;
+			}
+
+			.borderojo{
+				border:1px solid red;
+			}
+
+
+			.miotraclase{
+
+				background-color: yellow;
+			}		
+
+		</style>
+	</head>
+	<body>
+		<h2>Selector de Clase</h2>
+		<p> Un selector de tipo:</p>
+		<p><em>.miclase</em></p>
+		<p>Selecciona y estiliza a todos los elementos que pertenezcan a esa clase.</p>
+		<p>La diferencia fundamental con los id es que una misma clase puede ser aplicada a todos los elementos que queramos sin ni siquiera importarnos su tipo.</p>
+
+		<p>Ésto quiere decir que podemos aplicar una clase determinada a un elemento "p", a un elemento "div", "section", etc.</p>
+
+		<p>Otra caracteristica muy importante es que un elemento puede pertenecer a muchas clases y de esta forma lo podemos estilizar a medida. </p>
+
+		<p>Vamos a ver un ejemplo:</p>
+
+		<ol class="miotraclase borderojo">
+
+			<li>Esto es un li</li>
+			<li class="miclase">Esto es un li</li>
+			<li class="miclase borderojo">Esto es un li</li>
+			<li>Esto es un li</li>
+
+		</ol>
+		<p class="miclase">Yo soy un párrafo</p>
+
+
+	</body>
+</html>

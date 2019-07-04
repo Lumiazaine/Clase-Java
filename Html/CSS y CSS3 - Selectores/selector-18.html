@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Pseudo Elementos before y after</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<style type="text/css">
+			*{
+				/*es muy interesante meter siempre esta propiedad aquí ya que nos va a quitar muchos dolores de cabeza*/
+				box-sizing:border-box;
+
+			}
+
+			body{
+				font-family: 'Roboto', sans-serif;
+			}
+
+			p::after{
+
+				content: " - Ésto es final";
+			}
+
+			p.movil::before,p.email::before{
+
+					font-family: "Font Awesome 5 Free";
+					display: inline-block;
+					vertical-align: middle;
+					padding-right: 6px;
+					font-weight: 900;
+
+			}
+
+			p.movil::before{
+				content:"\f3cd";
+			}
+
+			p.email::before{
+				content:"\f199";
+			}
+
+
+		</style>
+		
+	</head>
+	<body>
+		<h2>Pseudo elementos before y after</h2>
+		<p>Los pseudo elementos before y after nos permiten mediante CSS introducir contenidos en nuestro HTML delante o después de un elemento.</p>
+
+		<p>Veamos un ejemplo con after:</p>
+		<p>Imaginémonos que queremos meter un texto detrás de cada elemento "p"</p>
+
+		<p>Esto es un párrafo</p>
+		<p class="miclase">Esto es un párrafo</p>
+		<p>Esto es un párrafo</p>
+		<p>Esto es un párrafo</p>
+		<div class="miclase">Esto es un div</div>
+		<p>Esto es un párrafo</p>
+		<p>Esto es un párrafo</p>
+		<div>Esto es un div</div>
+
+		<p>Veamos otro ejemplo con el before:</p>
+
+		<div class="contenedor">
+
+			<p class="movil">movil</p>
+			<p class="email">email</p>
+
+		</div>
+
+
+
+
+	</body>
+</html>

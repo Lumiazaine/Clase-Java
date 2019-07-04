@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Tablas con RowSpan</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+		<style type="text/css">
+
+			body{
+
+				font-family: 'Roboto', sans-serif;
+			}
+			
+			table,td,th{
+				border: 1px solid #000000;
+			}
+
+			table{
+				width: 50%;
+				border-collapse: collapse;
+			}
+
+			td{
+				padding: 10px;
+			}
+
+
+			.telefono_importante{
+				color:#ffffff;
+				
+				background: #9dd53a; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #9dd53a 0%, #a1d54f 50%, #80c217 51%, #7cbc0a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */			}
+
+	a:link,a:visited{
+		text-decoration: none;
+		color: #000000;
+	}
+
+	a:hover{
+
+		color: yellow;
+	}
+
+	a:active{
+		color: red;
+	}
+
+	img{
+		height: 50px;
+	}
+	
+
+		</style>
+
+	</head>
+	<body>
+		<h2>Tablas con Rowspan</h2>
+		<p>Para conseguir que una celda ocupe mas de una fila utilizaremos el atributo "rowspan".</p>
+		<table>
+			<tr>
+				<th>Nombre</th>
+				<td><img src="img/barcelona.png"></td>
+				
+			</tr>
+
+			<tr>
+				<th rowspan="2">Teléfonos</th>
+				<td class="telefono_importante ">5438765</td>
+				
+				
+			</tr>
+
+			<tr>
+				
+				<td><a href="#">9876400</a></td>
+				
+			</tr>
+
+		</table>
+
+	</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Centrado vertical de un elemento de bloque cuando no conocemos su altura</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+
+			.padre {
+				background: yellow;
+				height: 400px;
+				position: relative;
+			}
+
+			.hijo {
+				background: red;
+				color: white;
+				width: 100px;
+				/*IMPORTANTE*/
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+
+
+		</style>
+
+		
+	</head>
+	<body>
+
+		<div class="padre">
+			<div class="hijo">¿Qué sucede si no conocemos la altura del elemento? En ese caso podemos usar lo siguiente transform: translateY(-50%), en vez de margin-top.</div>
+		</div>
+
+	</body>
+
+</html>

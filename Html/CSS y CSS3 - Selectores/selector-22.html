@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Selector nth-child(n)</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style type="text/css">
+			body{
+
+				font-family: 'Roboto', sans-serif;		
+			}
+
+			 div p:nth-child(3){
+
+				background-color: yellow;
+			}
+
+			table{
+				width: 100%;
+				border-collapse: collapse;
+
+			}
+
+			table, td,tr{
+				border: 1px solid #000000;
+				padding:10px;
+			}
+
+			tr:nth-child(even){
+
+				background-color: red;
+			}
+
+
+
+		
+
+		</style>
+	</head>
+	<body>
+		<h2>Selector nth-child</h2>
+		<h3>Selector nth-child</h3>
+		<p>Un selector de tipo:</p>
+		<p><em>:elemento:nth-child(un numero positivo desde 1 en adelante)</em></p>
+		<p>o</p>
+		<p><em>:elemento:nth-child(odd o even)</em></p>
+		<p>Selecciona y/o estiliza los elementos de tipo "elemento" que ocupen la posición marcada dentro del paréntesis en su parent.</p>
+
+		<p>Veamos un ejemplo:</p>
+		<div>
+			<p>Yo soy un párrafo</p>
+			<p>Yo soy un párrafo</p>
+			<p>Yo soy un párrafo</p>
+			<p>Yo soy un párrafo</p>
+		</div>
+
+		<p>Veamos un ejemplo con tablas:</p>
+
+		<table>
+			<tr>
+				<td>esto es un td</td>
+				<td>esto es un td</td>
+				<td>esto es un td</td>
+			</tr>
+
+			<tr>
+				<td>esto es un td</td>
+				<td>esto es un td</td>
+				<td>esto es un td</td>
+			</tr>
+
+						<tr>
+				<td>esto es un td</td>
+				<td>esto es un td</td>
+				<td>esto es un td</td>
+			</tr>
+
+
+
+			
+
+		</table>
+
+
+
+	</body>
+</html>

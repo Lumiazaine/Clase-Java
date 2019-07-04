@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Selector Atributo</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style type="text/css">
+			body{
+
+				font-family: 'Roboto', sans-serif;		
+			}
+
+			a[name]{
+
+				background-color: red;
+				
+			}
+			
+
+		</style>
+	</head>
+	<body>
+		<h2>Selector atributo</h2>
+		<p>Un selector de atributo de tipo:</p>
+		<p><em>elemento[nombreatributo]{estilos}</em></p>
+		<p>Selecciona y da estilo a todos los "elemento" que tengan ese atributo.		
+		</p>
+		<p>Vamos a ver un ejemplo:</p>
+		<p>Los links que tengan especificado un "target" (es decir que tengan un atributo "target") van a tomar un fondo de color rojo</p>
+		<a class="miclase" href="http://www.as.com" target="_blank">Esto es un link</a>
+		<a href="http://www.as.com" target="_self">Esto es un link</a>
+		<a href="http://www.as.com">Esto es un link</a>
+		<a href="#" name="pepito">Esto es un link</a>
+		<a href="#">Esto es un link</a>
+
+
+
+	</body>
+</html>

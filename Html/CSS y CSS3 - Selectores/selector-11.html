@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Selector Atributo especificando el valor de ese atributo</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style type="text/css">
+			body{
+
+				font-family: 'Roboto', sans-serif;		
+			}
+
+			a[class="otraclase"]{
+				background-color: red;
+				
+			}
+
+			
+
+		</style>
+	</head>
+	<body>
+		<h2>Selector atributo especificando el valor de ese atributo</h2>
+		<p>Un selector de atributo de este tipo:</p>
+		<p><em>elemento[nombreatributo="valoratributo"]{estilos}</em></p>
+		<p>Selecciona y da estilo a todos los "elemento" que tengan ese atributo con ese valor específico.		
+		</p>
+		<p>Vamos a ver un ejemplo:</p>
+		<p>Los links que tengan especificado una "class" (es decir que tengan un atributo "class=miclase") van a tomar un fondo de color rojo</p>
+		<a class="miclase" href="http://www.as.com" target="_blank">Esto es un link</a>
+		<a href="http://www.as.com" target="_self">Esto es un link</a>
+		<a href="#">Esto es un link</a>
+		<a href="#">Esto es un link</a>
+		<a class="otraclase" href="#">Esto es un link</a>
+
+
+
+	</body>
+</html>

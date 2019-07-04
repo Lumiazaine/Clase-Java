@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Tablas con filas de color alternados</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style type="text/css">
+
+			#grupos_musicales{
+
+				font-family: 'Roboto', sans-serif;
+				width: 100%;
+				border: 1px solid #000000;
+				border-collapse: collapse;
+			}
+
+
+
+			#grupos_musicales th,#grupos_musicales td{
+				border: 1px solid #dddddd;
+				text-align: center;
+				padding: 15px;
+			}
+
+			#grupos_musicales .alineacion_derecha{
+				text-align: right;
+
+			}
+
+			#grupos_musicales th{
+				background-color: #bbbbbb;
+			}
+
+			#grupos_musicales tr{
+				background-color: #dddddd;
+			}
+
+			#grupos_musicales tr:nth-child(even){
+				background-color: #f2f2f2;
+			}
+
+			#grupos_musicales tr:hover{
+				background-color: red;
+			}
+
+
+			
+
+		</style>
+		
+	</head>
+	<body>
+		<table id="grupos_musicales">
+			<tr>
+				<th>Nombre</th>
+				<th>Nacionalidad</th>
+				<th>Año fundación</th>
+			</tr>
+
+			<tr >
+				<td >The Beatles</td>
+				<td >Inglaterra</td>
+				<td class="alineacion_derecha">1954</td>
+			</tr>
+			<tr>
+
+				<td>Rammstein</td>
+				<td >Alemania</td>
+				<td class="alineacion_derecha">1975</td>
+			</tr>
+
+			<tr>
+				<td>Pink Floyd</td>
+				<td>Inglaterra</td>
+				<td class="alineacion_derecha">1968</td>
+			</tr>
+
+			<tr>
+				<td>The Doors</td>
+				<td>USA</td>
+				<td class="alineacion_derecha">1965</td>
+			</tr>
+			
+
+		</table>
+
+	</body>
+</html>

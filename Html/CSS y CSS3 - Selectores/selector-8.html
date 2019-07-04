@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Selector Hijos Directos</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style type="text/css">
+			body{
+
+				font-family: 'Roboto', sans-serif;		
+			}
+
+			div > p{
+				
+				color: red;
+			}
+			
+
+		</style>
+	</head>
+	<body>
+		<h2>Selector hijos directos</h2>
+		<p>Un selector de hijos directos de tipo:</p>
+		<p><em>elemento1 > elemento2{estilos}</em></p>
+		<p>Selecciona y da estilo a todos los "elemento2" que sean hijos de un "elemento1".		
+		</p>
+		<p>Vamos a ver un ejemplo:</p>
+		<div>
+			<p>Esto es un párrafo</p>
+			<p>Esto es un párrafo</p>
+			<section>
+				<p>Esto es un párrafo</p>
+			</section>
+		</div>
+
+	</body>
+</html>

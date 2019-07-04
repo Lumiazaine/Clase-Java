@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Selector universal</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style type="text/css">
+			*{
+				margin:0px;
+				padding:0px;
+				
+			}
+
+			body{
+				font-family: 'Roboto', sans-serif;
+			}	
+
+			div{
+				width: 260px;
+				height: 260px;
+				border:5px solid #000000;
+				margin:0 auto;
+				padding:20px;
+			}
+
+
+		</style>
+		
+	</head>
+	<body>
+		<h2>Selector universal</h2>
+		<p>El "*" selecciona todos los elementos.</p>
+		<p>Se suele utilizar al principio de los CSS para estilizar elementos con propiedades que queremos modificar a nivel general.</p>
+
+		<p>Vamos a ver un ejemplo:</p>
+		<p>Generalmente Todos los navegadores llevan por defecto una hoja de estilos "invisible" que estiliza elementos por defecto: los h1, h2, h3, h4, h5, h6, p, ul suelen venir con su font-size, con margins con paddings que muchas veces son molestos y nos interesa reescribirlos...</p>
+
+		<ul>
+			<li>Esto es un li</li>
+			<li>Esto es un li</li>
+			<li>Esto es un li</li>
+		</ul>
+
+		<p>Vemos que utilizando el selector universal desaparecen todos los margin y todos los padding que nos da por defecto el navegador.</p>
+
+		<div>Vemos que utilizando el selector universal desaparecen todos los margin y todos los padding que nos da por defecto el navegador.</div>
+
+	</body>
+</html>

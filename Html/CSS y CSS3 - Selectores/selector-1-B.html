@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Selector universal con un Box Sizing</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style type="text/css">
+			*{
+				/*es muy interesante meter siempre esta propiedad aquí ya que nos va a quitar muchos dolores de cabeza*/
+				box-sizing:border-box;
+			}
+
+			body{
+				font-family: 'Roboto', sans-serif;
+			}
+
+			div{
+				margin-bottom: 20px;
+			}
+
+			.caja1{
+				width:300px;
+				height: 100px;
+				border: 5px solid blue;
+			}
+
+			.caja2{
+				width:300px;
+				height: 100px;
+				border: 5px solid red;
+				padding:10px;
+			}		
+
+
+		</style>
+		
+	</head>
+	<body>
+		<h2>Selector universal con Box Sizing</h2>
+		<p>Como segundo ejemplo vamos a utilizar el selector universal "*" con una nueva propiedad llamada "box-sizing".</p>
+
+		<h3>El Box Sizing</h3>
+		<p>La propiedad "box-sizing" nos permite incluir el padding y el border de un elemento en el total del "width" y del "height".</p>
+		<p>Por defecto el "width" y el "height" de un elemento se calcula así:</p>
+		<p><em>width + padding + border = "width" de un elemento</em></p>
+		<p><em>height + padding + border = "height" de un elemento</em></p>
+
+		<p>Vamos a ver un ejemplo:</p>
+		<p>Vamos a crear dos "divs" y vamos a ver que el segundo se visualiza mayor que el primero a pesar de tener establecido mediante CSS igual anchura y largura.</p>
+
+		<div class="caja1">Este div va ser más pequeño ya que no va ha llevar padding</div>
+		<div class="caja2">Este div va a ser más grande ya que le hemos añadido 50 px de padding</div>
+
+		<p>Como vemos, una vez metido el box-sizing los dos divs, independientemente de su padding y su border, se renderizan con el tamaño establecido en su width y height en el CSS.</p>
+
+
+
+	</body>
+</html>

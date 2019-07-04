@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Transición</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+
+			/*PODEMOS APLICAR UNA TRANSICIÓN SOBRE VARIAS PROPIEDADES UTILIZANDO "all"*/
+			div {
+				transition: all 0.5s ease;
+				background: red;
+				padding: 10px;
+			}
+			div:hover {
+				background: green;
+				padding: 20px;
+			}
+
+			/*SERÍA LO MISMO QUE ÉSTO...
+
+			div {
+  				transition: background 0.5s ease, padding 0.5s ease;
+			}
+
+			div:hover {
+				background: green;
+				padding: 20px;
+			}
+
+			*/
+
+		</style>
+	</head>
+	<body>
+
+		<div></div>
+
+
+	</body>
+</html>

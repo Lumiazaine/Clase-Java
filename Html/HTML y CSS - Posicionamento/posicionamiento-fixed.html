@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Posicionamiento "Fixed"</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style type="text/css">
+			body{
+
+				font-family: 'Roboto', sans-serif;
+			}
+			#menu{
+
+				width: 100%;
+				height: 60px;
+				background-color: #000000;
+				position: fixed;
+				top:0;
+			}
+
+			#menu a{
+
+				color: #ffffff;
+				text-decoration: none;
+				font-size: 20px;
+			}
+
+			#menu li{
+				display: inline-block;
+				margin-right: 15px;
+				/*margin-top: 1rem;*/
+				
+
+			}
+
+			#menu ul{
+				display: inline-block;
+				/*background-color: red;*/
+
+			}
+
+			.iconos{
+				display: inline-block;
+				/*background-color: blue;*/
+				vertical-align: middle;
+
+			}
+
+			.gadget_izquierdo{
+
+				width: 60px;
+				height: 200px;
+				background-color: #29c234;
+				border-radius: 0px 20px 20px 0px;
+				position:fixed;
+				left:0;
+				top:30%;
+				-webkit-box-shadow: 20px 20px 20px 3px rgba(0,0,0,0.5);
+				box-shadow: 20px 20px 20px 3px rgba(0,0,0,0.5);
+
+			}
+
+			.icono_lateral{
+
+				margin-top: 1rem;
+				margin-left: 5px;
+			}
+
+			.vacio{
+				height: 70px;
+			}
+
+			.centrador{
+
+				width: 70%;
+				margin:0px auto;
+			}
+
+		</style>
+		
+	</head>
+	<body>
+		<nav id="menu">
+
+			<ul>
+				<li><a href="#">item 1</a></li>
+				<li><a href="#">item 2</a></li>
+				<li><a href="#">item 3</a></li>
+				<li><a href="#">item 4</a></li>
+				<li><a href="#">item 5</a></li>
+				<li><a href="#">item 6</a></li>
+				<li><a href="#">item 7</a></li>
+
+
+			</ul>
+	
+		</nav>
+
+		<div class="centrador">
+			<div class="vacio"></div>
+			<h2>Posicionamiento "Fixed"</h2>
+			<p>Un elemento tiene posicionamiento "fixed" cuando le aplicamos la propiedad CSS:</p>
+			<p><i>position:fixed;</i></p>
+			<p>El elemento se posicionará relativamente a la ventana del navegador y se mantendrá fijo aun haciendo scroll</p>
+
+			<p> Vamos a crear un menú y lo vamos a situar en la prte superior de la página.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<div class="gadget_izquierdo">
+
+				<div class="icono_lateral">
+					<img src="img/facebook-icon.png">
+				</div>
+
+				<div class="icono_lateral">
+					<img src="img/twitter-icon.png">
+				</div>
+
+				<div class="icono_lateral">
+					<img src="img/linkedin-icon.png">
+				</div>
+
+			</div>
+			t
+			<p>Para resumir un elemento "fixed" es un elemento POSICIONADO y actúa como si estuviera "en otro plano" no interactuando con los elementos estáticos. </p>
+
+		</div><!--aquí se cierra el centrador-->
+	</body>
+</html>

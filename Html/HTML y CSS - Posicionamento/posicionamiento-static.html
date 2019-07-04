@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Posicionamiento Static</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+		<style type="text/css">
+			body{
+
+				font-family: 'Roboto', sans-serif;
+			}
+
+			div{
+				border: 3px solid blue;
+				border-radius: 5px;
+				padding: 10px;
+				margin-top: 10px;
+
+
+			}
+
+			.fondo_rojo{
+				border: 3px solid red;
+				border-radius: 5px;
+				padding: 10px;
+
+			}
+
+			.elemento_bloque{
+				display:inline-block;
+				margin-top: 10px;
+			}
+
+		</style>
+
+
+	</head>
+	<body>
+		<h2>Posicionamiento "Static"</h2>
+		<p>Todos los elementos en HTML tienen por defecto su propiedad "position" establecida en "static": </p>
+		<p><i>position:static;</i></p>
+		<p>Esto quiere decir que si ponemos esta propiedad CSS en cualquier elemento (por ejemplo en un "div") no vamos a conseguir ningún cambio.</p>
+		<p>Cuando el navegador renderiza el HTML interpretando el código HTML de arriba hacia abajo y los elementos (de linea y de bloque) van ocupando sus posiciones naturales. Esto se conoce como "flujo normal". </p>
+		<p>Por ejemplo los párrafos anteriores que están dentro de etiquetas "p" se van renderizando en orden y como son elementos de bloque ocupan toda la línea.</p>
+		<p>Sin embargo si estuvieramos empleando etiquetas de línea (por ejemplo un "span", un "a", una imagen...) estos elementos irían posicionándose uno al lado de otro como en este ejemplo:</p>
+
+
+		<p><a href="#">Esto es un link y por lo tanto es una elemento de línea</a><a href="#">Esto es un link y por lo tanto es una elemento de línea</a><a href="#">Esto es un link y por lo tanto es una elemento de línea</a></p>
+
+		<p>Por lo tanto si empleamos etiquetas de bloque y etiquetas de línea conjuntamente irán ocupando su posición natural en la pantalla.
+		<br><br>Como en este ejemplo: </p>
+
+		<div>Esto es un "div" y por lo tanto ocupa todo el ancho no dejando a ningún elemento posicionarse a su lado.</div>
+
+		<a class="fondo_rojo elemento_bloque" href="#">Esto es un elemento de linea</a>
+
+		<a class="fondo_rojo" href="#">Esto es un elemento de linea</a>
+
+		<div>Esto es un "div" y por lo tanto ocupa todo el ancho no dejando a ningún elemento posicionarse a su lado.</div>
+
+		<div>Esto es un "div" y por lo tanto ocupa todo el ancho no dejando a ningún elemento posicionarse a su lado.
+
+			<a class="fondo_rojo elemento_bloque" href="#">Esto es un elemento de linea</a>
+		</div>
+		<p>Para resumir podemos decir que un elemento cuya propiedad "position" es "static" se posiciona en el body siguiendo un "flujo normal" y que ese elemento NO ESTÁ POSICIONADO. </p>
+
+	</body>
+</html>

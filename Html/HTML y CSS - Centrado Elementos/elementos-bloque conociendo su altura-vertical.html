@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Centrado vertical de un elemento de bloque cuando conocemos su altura</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+
+
+			 .padre {
+				  background: yellow;
+				  height: 200px;
+				  position: relative;
+			}
+
+			.hijo {
+				  background: red;
+				  width: 100px;
+				  /*IMPORTANTE*/
+				  height: 100px;
+				  position: absolute;
+				  top: 50%;
+				  margin-top: -50px;
+			}
+
+
+		</style>
+
+		
+	</head>
+	<body>
+
+		<div class="padre">
+			<div class="hijo"></div>
+		</div>
+
+	</body>
+
+</html>

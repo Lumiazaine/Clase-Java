@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Posicionamiento "Absolute"</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+		<style type="text/css">
+
+			*{
+				font-size: 16px;
+			}
+
+			body{
+				font-family: 'Roboto', sans-serif;
+
+			}	
+
+			.padre{
+				border:2px solid red;
+				width: 7.5rem;
+				height: 7.5rem;
+				position:relative;
+				left:50px;
+				top:70px;
+			}
+
+			.hijo{
+				border:2px solid blue;
+				width: 50px;
+				height: 50px;
+				position: absolute;
+				right:0;
+
+			}
+
+
+		</style>
+		
+	</head>
+	<body>
+		<h2>Posicionamiento "Absolute"</h2>
+		<p>Para posicionar un elemento de una manera absoluta tendremos que usar la siguiente propiedad CSS:</p>
+		<p><i>position:absolute;</i></p>
+		<p>Un elemanto con posicionamiento absoluto se posiciona relativamente a su ancestro posicionado más cercano. </p>
+		<p>Sin embargo si un elemento posicionado absolutamente no tiene ancestros posicionados se posicionara al body y se moverá con el scroll de la página.</p>
+		<p>Debemos recordar que un elemento POSICIONADO es aquel cuya propiedad "position" es distinta que "static", es decir "relative", "fixed".</p>
+
+		<p>Vamos a verlo en un ejemplo:</p>
+
+		<div class="padre">
+			<div class="hijo"></div>
+		</div>
+
+	</body>
+</html>

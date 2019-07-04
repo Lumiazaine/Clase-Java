@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Selector Atributo especificando una cadena que debe estar al final valor de ese atributo</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style type="text/css">
+			body{
+
+				font-family: 'Roboto', sans-serif;		
+			}
+
+			a[href$=".pdf"]{
+
+				background-color: red;
+				
+			}
+
+			
+
+		</style>
+	</head>
+	<body>
+		<h2>Selector Atributo especificando una cadena que debe estar al final del valor de ese atributo</h2>
+		<p>Un selector de atributo de este tipo:</p>
+		<p><em>elemento[nombreatributo$="unacadenacualquiera"]{estilos}</em></p>
+		<p>Selecciona y da estilo a todos los "elemento" que tengan esa cadena al final del valor de su atributo.
+		</p>
+		<p>Vamos a ver un ejemplo:</p>
+		
+		<a href="http://www.as.com">esto es un link que va a una pagina</a>
+		<a href="http://unec.edu.az/application/uploads/2014/12/pdf-sample.pdf">esto es un link que va a una pagina</a>
+		<a href="http://www.elmundo.com">esto es un link que va a una pagina</a>
+		<a href="http://unec.edu.az/application/uploads/2014/12/pdf-sample.pdf">esto es un link que va a una pagina</a>
+		
+		
+
+
+
+	</body>
+</html>

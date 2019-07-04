@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Centrado vertical y horizontal de una imagen utilizando el truco del espacio en blanco por delante de la imagen</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+
+			.padre {
+				background: yellow;
+				height: 400px;
+
+				/*IMPORTANTE*/
+				line-height: 400px;
+				text-align: center;
+	
+				
+			}
+
+			.hijo{
+
+				vertical-align: middle;
+			}
+
+
+
+		</style>
+
+		
+	</head>
+	<body>
+
+		<div class="padre"><!--colocamos un espacio en blanco por delante de la imagen-->
+			&nbsp;<img class="hijo" src="https://placeimg.com/200/200/any"/>
+		</div>
+
+	</body>
+
+</html>

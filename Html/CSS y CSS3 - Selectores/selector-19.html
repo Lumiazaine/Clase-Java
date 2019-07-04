@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Selector tipo elemento.miclase</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style type="text/css">
+			*{
+				/*es muy interesante meter siempre esta propiedad aquí ya que nos va a quitar muchos dolores de cabeza*/
+				box-sizing:border-box;
+
+			}
+
+			body{
+				font-family: 'Roboto', sans-serif;
+			}
+
+			p.miclase{
+				background-color: yellow;
+			}
+	
+
+
+		</style>
+		
+	</head>
+	<body>
+		<h2>Selector tipo elemento.miclase</h2>
+		<p>Caundo queremos seleccionar, por ejemplo, todos los "p" de una determinada clase utilizaremos este selector:</p>
+		<p><em>p.miclase</em></p>
+
+		<p>Vamos a ver un ejemplo:</p>
+
+		<p>Esto es un parrafo</p>
+		<p class="miclase">Esto es un parrafo</p>
+		<p>Esto <span class="miclase">es</span> un parrafo</p>
+		<p>Esto es un parrafo</p>
+		<div class="miclase">Esto es un div</div>
+
+
+
+
+
+	</body>
+</html>

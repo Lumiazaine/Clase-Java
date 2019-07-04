@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Tabla con borde colapsado</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style type="text/css">
+			*{
+
+
+			}
+			body{
+				font-family: 'Roboto', sans-serif;
+
+			}
+
+			table,td,th{
+				border:1px solid black;
+				
+				
+			}
+
+			table{
+				width: 100%;
+			}
+
+			th{
+
+				font-style: italic;
+			}
+
+			.tabla2,.tabla3{
+				border-collapse: collapse;
+
+			}
+
+
+
+			.tabla3 td{
+				padding: 10px;
+			}
+
+
+
+	
+			
+
+
+		</style>
+		
+	</head>
+	<body>
+		<h2> Tabla básica</h2>
+		<table>
+			<tr>
+				<th>contenido</th>
+				<th>contenido</th>
+				<th>contenido</th>
+				
+			</tr>
+
+			<tr>
+				<td>contenido</td>
+				<td>contenido</td>
+				<td>contenido</td>
+				
+			</tr>
+
+			<tr>
+				<td>contenido</td>
+				<td>contenido</td>
+				<td>contenido</td>
+				
+			</tr>
+
+		</table>
+
+
+		<h2> Tabla borde colapsado</h2>
+		<p>Para <mark>conseguir</mark> que nuestra tabla tenga el <b>borde colapsado</b> simplemente tenemos que añadir la propiedad CSS: <strong>border-collapse</strong></p>
+		<table class="tabla2">
+			<tr>
+				<th>contenido</th>
+				<th>contenido</th>
+				<th>contenido</th>
+				
+			</tr>
+
+			<tr>
+				<td>contenido</td>
+				<td>contenido</td>
+				<td>contenido</td>
+				
+			</tr>
+
+			<tr>
+				<td>contenido</td>
+				<td>contenido</td>
+				<td>contenido</td>
+				
+			</tr>
+
+		</table>
+
+
+		<h2> Tabla borde colapsado y cell padding</h2>
+		<p>El "padding" especifica el espacio entre el texto y el borde de su contenedor. </p>
+		<table class="tabla3">
+			<tr>
+				<th>contenido</th>
+				<th>contenido</th>
+				<th>contenido</th>
+				
+			</tr>
+
+			<tr>
+				<td>contenido</td>
+				<td>contenido</td>
+				<td>contenido</td>
+				
+			</tr>
+
+			<tr>
+				<td>contenido</td>
+				<td>contenido</td>
+				<td>contenido</td>
+				
+			</tr>
+
+		</table>
+
+
+	</body>
+</html>

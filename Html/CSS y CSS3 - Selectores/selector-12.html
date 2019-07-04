@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Selector Atributo especificando una cadena que debe estar incluída en el valor de ese atributo</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style type="text/css">
+			body{
+
+				font-family: 'Roboto', sans-serif;		
+			}
+
+			p[class*="rena"]{
+				background-color: red;
+				
+			}
+
+			
+
+		</style>
+	</head>
+	<body>
+		<h2>Selector Atributo especificando una cadena que debe estar incluída en el valor de ese atributo</h2>
+		<p>Un selector de atributo de este tipo:</p>
+		<p><em>elemento[nombreatributo*="unacadenacualquiera"]{estilos}</em></p>
+		<p>Selecciona y da estilo a todos los "elemento" que tengan esa cadena incluída en el valor de su atributo.
+		</p>
+		<p>Vamos a ver un ejemplo:</p>
+		<p class="renault12">Renault 12</p>
+		<p class="peugeot205">Peugeot 205</p>
+		<p class="renaultmegane">Renault Megane</p>
+		<p class="seat600">Seat 600</p>
+		<p class="renaultclio">Renault Clio</p>
+		
+
+
+
+	</body>
+</html>

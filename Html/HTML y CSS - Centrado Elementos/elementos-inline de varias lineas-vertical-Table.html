@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Centrado vertical de elementos inline de varias lineas con Table</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+
+
+			 .padre {
+
+				  height: 150px;
+				  background: yellow;
+			  
+				  /* IMPORTANTE */
+				  display: table;
+			}
+
+			.hijo {
+				  /* IMPORTANTE */
+				  display: table-cell;
+				  vertical-align: middle;
+			}
+
+		</style>
+
+		
+	</head>
+	<body>
+
+		<div class="padre">
+			<span class="hijo">Lo primero que debemos hacer es agregar al contenedor "padre" del elemento a centrar display: table y al elemento "hijo" display: table-cell y vertical-align:middle. Lo primero que debemos hacer es agregar al contenedor "padre" del elemento a centrar display: table y al elemento "hijo" display: table-cell y vertical-align:middle. Lo primero que debemos hacer es agregar al contenedor "padre" del elemento a centrar display: table y al elemento "hijo" display: table-cell y vertical-align:middle</span>
+		</div>
+
+	</body>
+
+</html>

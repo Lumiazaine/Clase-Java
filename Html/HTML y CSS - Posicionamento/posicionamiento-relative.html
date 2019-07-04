@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Posicionamiento "Relative"</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<style type="text/css">
+			body{
+				font-family: 'Roboto', sans-serif;
+			}
+
+			
+			.posicion_static{
+
+				height: 100px;
+				width: 100px;
+				background-color: red;
+				margin-bottom: 5px;
+				position: static;
+
+			}
+
+			.posicion_static2{
+
+				height: 100px;
+				width: 100px;
+				background-color: red;
+				margin-bottom: 5px;
+				position: static;
+				z-index: 20;
+
+			}
+
+			.posicion_relative{
+				
+				height: 100px;
+				width: 100px;
+				background-color: green;
+				margin-bottom: 5px;
+				position: relative;
+				left:120px;
+				top: 80px;
+
+			}
+
+			.posicion_relative2{
+
+				position: relative;
+				height: 100px;
+				width: 100px;
+				background-color: blue;
+			}
+
+			.posicion_relative3{
+				position: relative;
+				height: 100px;
+				width: 100px;
+				background-color: yellow;
+				top:-20px;
+				left: 40px;
+				z-index: -20;
+				
+			}
+
+			.posicion_relative4{
+				position: relative;
+				height: 100px;
+				width: 100px;
+				background-color: yellow;
+				top:-20px;
+				left: 40px;
+				/*z-index: -20;*/
+				
+			}
+
+
+		</style>
+		
+	</head>
+	<body>
+		<h2>Posicionamiento "Relative"</h2>
+		<p>Para posicionar un elemento con posicion "relative" utilizaremos la siguiente propiedad CSS:</p>
+		<p><i>position:relative</i></p>
+		<p>Un elemento que está posicionado relativamente modifica su posición "natural" de renderización con las propiedades: top, right, bottom y left.</p>
+		<p> El valor que le demos a estas propiedades situará al elemento en una posición relativa a la posición que hubiera ocupado este elemento si hubiera sido estático.</p>
+		<p>Vamos a ver un ejemplo para ilustrar lo comentado anteriormente:</p>
+
+		<div class="posicion_static"></div>
+		<div class="posicion_relative"></div>
+		<div class="posicion_static"></div>
+
+		<p>¿Qué haremos si un elemento posicionado relativamente se sitúa encima de otro y queremos que quede debajo?:</p>
+
+		<div class="posicion_relative2"></div>
+		<div class="posicion_relative3"></div>
+
+		<p>¿Y qué sucede cuando un elemento tiene posicionamiento relativo y el otro estático? (lo que intentamos comprobar es si la propiedad "z-index" funciona con un elemento estático)</p>
+
+		<div class="posicion_static2"></div>
+		<div class="posicion_relative4"></div>
+
+		<p>La respuesta, como vemos, es NO.</p>
+
+
+		<p>Podemos decir que un elemento posicionado relativamente ESTÁ POSICIONADO.</p>
+		 
+
+	</body>
+</html>

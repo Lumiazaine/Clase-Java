@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Tranformación escala</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			
+			div{
+				background-color: red;
+				height: 150px;
+				width: 150px;
+				display: inline-block;
+				/*NOMBRES DE TRANSICIONES
+				-linear
+				-ease
+				-ease-in
+				-ease-out
+				-ease-in-out*/
+				transition: all 1s ease;
+				/*transform: scale(1.5); ESCALA EL ELEMENTO PROPORCIONALMENTE*/
+				/*transform: scale(2, .5); ESCALA EL ELEMENTO CON UN VALOR 2 EN LAS X Y UN VALOR 0.5 EN LAS Y*/
+				/*transform: scaleX(2); ESCALA EL ELEMENTO CON UN VALOR 2 SOLO EN LAS X*/
+				/*transform: scaleY(.5); ESCALA EL ELEMENTO CON UN VALOR 0.5 SOLO EN LAS Y*/
+				
+
+			}
+
+			div:hover{
+				/*background-color: blue;*/
+				transform: scale(1.2);
+				
+
+
+			}
+
+
+		</style>
+	</head>
+	<body>
+
+		<div></div>
+
+
+	</body>
+</html>
