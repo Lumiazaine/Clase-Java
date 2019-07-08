@@ -24,9 +24,36 @@ var escuderías={
 		ferrari:{
 
 
+			color_linea:"",
+			nombre_escuderia:"",
+			bandera:""
+			logotipo:"",
+			foto_coche:"",
+			numero_podios:"",
+			campeonatos_ganados:"",
+			anos_campeonatos_ganados:[""],
+			pilotos:{
+				
+				piloto1:"",
+				piloto2:""
+
+
 
 		},
 		redbull:{
+
+			color_linea:"",
+			nombre_escuderia:"",
+			bandera:""
+			logotipo:"",
+			foto_coche:"",
+			numero_podios:"",
+			campeonatos_ganados:"",
+			anos_campeonatos_ganados:[""],
+			pilotos:{
+				
+				piloto1:"",
+				piloto2:""
 
 
 

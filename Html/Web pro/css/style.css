@@ -1,0 +1,88 @@
+@font-face{
+	font-family: "f1_Bold";
+	src:url("../fonts/Formula1-Bold.otf");
+}
+
+@font-face{
+	font-family: "f1_Regular";
+	src:url("../fonts/Formula1-Regular.otf");
+}
+
+@font-face{
+	font-family: "f1_Wide";
+	src:url("../fonts/Formula1-Wide.otf");
+}
+
+*{
+
+	box-sizing: border-box;
+}
+
+html,body{
+
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	background-color: #f7f4f1;
+}
+
+
+.contenedor-general{
+
+	width: 82rem;
+	margin: 0 auto;
+	/*height: 200px;
+	background-color: green;*/
+}
+
+.titular-h1{
+
+	font-family: 'f1_Regular', sans-serif;
+	font-size:2.5rem;
+	letter-spacing: 1.5px
+	font-weight: normal;
+	padding: 3rem 0;
+
+}
+
+
+.escuderias a{
+
+	display: flex;
+	width: 82rem;
+	height: 21.375rem;
+	
+
+}
+
+.escuderias a:hover .foto-coche{
+
+	transform:scale(1.2);
+}
+
+
+.foto-coche{
+	transition: all 0.4s ease;
+}
+
+.contenedor-izquierdo{
+
+	width: 50%;
+	height: 100%;
+	background-color: red;
+}
+
+.contenedor-derecho{
+
+	width: 50%;
+	height: 100%;
+	background-color: yellow;
+	border-left: solid 6px #00b2be;
+	text-align: center;
+	overflow: hidden;
+}
+
+.contenedor-derecho img{
+
+	height: 120%;
+
+}
