@@ -28,11 +28,10 @@ html,body{
 
 .contenedor-general{
 
-	width: 82rem;
-	margin: 0 auto;
-	/*height: 200px;
-	background-color: green;*/
-}
+	width: 90rem;        /*Hemos cambiado esto de 82 a 90 rem*/
+ 	margin: 0 auto;
+	height: 200px;
+	}
 
 .titular-h1{
 
@@ -50,6 +49,7 @@ html,body{
 	display: flex;
 	width: 82rem;
 	height: 21.375rem;
+	text-decoration: none;
 	
 
 }
@@ -66,16 +66,17 @@ html,body{
 
 .contenedor-izquierdo{
 
+	display: flex;
 	width: 50%;
 	height: 100%;
-	background-color: red;
+	background-color: white;
 }
 
 .contenedor-derecho{
 
 	width: 50%;
 	height: 100%;
-	background-color: yellow;
+	background-color: white;
 	border-left: solid 6px #00b2be;
 	text-align: center;
 	overflow: hidden;
@@ -86,3 +87,130 @@ html,body{
 	height: 120%;
 
 }
+
+
+.panel-izquierdo{
+
+	width: 50%;
+	height: 100%;
+	background-color: white;
+}
+
+
+.panel-derecho{
+
+	background-color: white;
+	width: 50%;
+	height: 100%;
+
+}
+
+
+.titular-h2{
+
+	font-family: "f1_Bold", sans-serif;
+	font-size: 1.4rem;
+	letter-spacing: 0px;
+	color:#171717;
+	margin:70px 0 0 40px;
+}
+
+.pilotos-panel{
+
+	margin: 20px 0 0 40px;
+
+}
+
+.pilotos-panel li{
+
+	color: #171717;
+	font-size:0.9rem;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+
+/*Se utiliza para añadir contenido antes de lo escrito escrito*/
+
+.pilotos-panel li::before{
+
+	content: url("../img/icono-helmet-blanco.png");
+	margin-right: 0.5rem;
+}
+
+
+.contenedor-logo img{
+
+	height: 97px;
+}
+
+.contenedor-logo{
+
+
+}
+
+
+.tabla-podio-copa{
+
+	width: 85%;
+	margin-top: 45px;
+}
+
+
+.tabla-podio-copa tr {
+
+height: 80px;
+
+	
+}
+
+
+.icono-podio{
+
+	width: 15%;
+	
+
+}
+
+
+
+
+.icono-podio::before{
+
+	content: url("../img/icono-podio-blanco.png");
+}
+
+
+
+.icono-copa::before{
+
+	
+	content: url("../img/icono-copa-blanco.png");
+}
+
+.texto-celdas{
+
+	color: #171717;
+	font-size:0.8rem;
+	width: 20%;
+}
+
+.numeros-celdas{
+
+	color: #171717;
+	font-size:1.4rem;
+	width: 20%;
+	text-align: right;
+}
+
+.tabla-podio-copa td{
+
+	vertical-align: middle;
+}
+
+
+.linea{
+
+	border-top: solid 1px #cccccc;
+}
+
