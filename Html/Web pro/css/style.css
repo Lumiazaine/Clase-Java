@@ -37,7 +37,7 @@ html,body{
 
 	font-family: 'f1_Regular', sans-serif;
 	font-size:2.5rem;
-	letter-spacing: 1.5px
+	letter-spacing: 1.5px;
 	font-weight: normal;
 	padding: 3rem 0;
 
@@ -50,7 +50,7 @@ html,body{
 	width: 82rem;
 	height: 21.375rem;
 	text-decoration: none;
-	
+
 
 }
 
@@ -93,13 +93,13 @@ html,body{
 
 	width: 50%;
 	height: 100%;
-	background-color: white;
+	/*background-color: white;*/
 }
 
 
 .panel-derecho{
 
-	background-color: white;
+	/*background-color: white;*/
 	width: 50%;
 	height: 100%;
 
@@ -144,10 +144,6 @@ html,body{
 	height: 97px;
 }
 
-.contenedor-logo{
-
-
-}
 
 
 .tabla-podio-copa{
@@ -161,14 +157,14 @@ html,body{
 
 height: 80px;
 
-	
+
 }
 
 
 .icono-podio{
 
 	width: 15%;
-	
+
 
 }
 
@@ -184,7 +180,7 @@ height: 80px;
 
 .icono-copa::before{
 
-	
+
 	content: url("../img/icono-copa-blanco.png");
 }
 
@@ -214,3 +210,37 @@ height: 80px;
 	border-top: solid 1px #cccccc;
 }
 
+.escuderias a:hover .contenedor-izquierdo{
+	
+	background-color: #171717;
+}
+
+
+a:hover .titular-h2 span{
+
+	color: #ffffff
+}
+
+a:hover .pilotos-panel li{
+	color: white;
+}
+
+a:hover .tabla-podio-copa td{
+	color:#ffffff;
+}
+
+a:hover .icono-podio::before{
+
+	content: url("../img/icono-podio-negro.png");
+}
+
+a:hover .icono-copa::before{
+
+	content: url("../img/icono-copa-negro.png");
+}
+
+a:hover .pilotos-panel li::before{
+
+	content: url("../img/icono-helmet-negro.png");
+	margin-right: 0.5rem;
+}
